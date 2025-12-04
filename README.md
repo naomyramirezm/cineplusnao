@@ -100,3 +100,28 @@ Buttons
 To finish the interface, I added two buttons so the user can make the final decision:
 - CANCELAR – Cancels the entire operation
 - FINALIZAR – Confirms the purchase and completes the transaction
+
+  
+Technologies Used
+
+- Python
+- wxPython
+- wxGlade
+- Visual Studio Code
+- Python 3.13
+- PNG/JPG files
+- Windows 10/11
+
+  Team Members
+
+- Naomy Arely Ramirez Nepamuceno
+
+  Instructions to Run the Project
+
+  To have Python installed on the computer as well as the wxpython library, open the name folder to run the program, open the "terminal" as follows: CD C:\Users\PC\downloads\wxglade
+   python wx.glade.py
+The application works as follows:
+- Login: Enter username and password
+- Box Office: Select the movie, time, room, and ticket type
+- Concession Stand: Add products to consume
+- Ticket: A complete summary and total amount to pay is displayed
