@@ -1,7 +1,7 @@
 # cineplusnao
 A movie ticket purchasing application created in Python using wxGlade. It contains 4 windows: Login, Box Office, Concession, and Ticket
 
-Description of my “Naomy CinePlus” windows**
+Description of my “Naomy CinePlus” 
 
 Start 
 
