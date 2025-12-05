@@ -3,19 +3,19 @@ A movie ticket purchasing application created in Python using wxGlade. It contai
 
 Description of my “Naomy CinePlus” 
 
-Start 
+Login 
 
 This is the very first window I designed for my system.
-I made it simple but visually appealing, with a clean black background and the cinema logo at the top.
+with a clean black background and the cinema logo at the top.
 
-I added two fields: username and password, along with two buttons:
+I added two fields: 
+username and password, 
 
+along with two buttons:
 Exit, to close the application
 Enter, to validate the login
 
-To make it feel more welcoming, I placed the text Welcome! | CinePlus at the top.
-The cinema image helps give the system its identity right from the beginning.
-
+I placed the text " Welcome  a CinePlus " at the top.
 
 Ticket Booth Window
 
@@ -40,7 +40,7 @@ Total cost
 
 I designed it so it would be clear, fast to use, and visually pleasant.
 
-Concession Stand Window 
+Stand Window 
 
 This is the most colorful window, because I wanted it to feel fun and lively—just like a real movie theater concession stand.
 
@@ -62,12 +62,12 @@ On the lower center of the window, I added options for individual items:
 Each product comes with its own image.
 
 On the right, a confirmation dialog appears summarizing everything the user chose—how many combos, drinks, and popcorn—followed by the subtotal.
-There’s also a “Next” button to continue with the purchase flow.
+There is also a "Next" button to continue with the purchase.
 
-I wanted this window to be very visual, with bright colors and large elements to recreate the look and feel of a real concession counter.
+I wanted this window to be very visual, with bright colors and large elements, to make it more eye-catching.
 
-Description of my “CinePlus 
-For this window, I wanted everything to look very clear and organized, so the user can review the entire purchase before completing it. The background is a bright pink, consistent with the colorful design of the concession stand window, and the layout is divided into two main sections: Ticket Booth (Taquilla) and Concession Stand (Dulcería).
+Ticket Window 
+For this window, I wanted everything to look very clear and organized, so the user can review the entire purchase before completing it.The background is bright pink, with the colorful design of the window, and it is divided into two main sections: Ticket Booth and Concession Stand
 
 Ticket Booth (Taquilla) Section
 In this part of the window, I display all the ticket-related details the user selected earlier:
@@ -99,7 +99,7 @@ This represents the combined cost of tickets and concession items.
 Buttons
 To finish the interface, I added two buttons so the user can make the final decision:
 - CANCELAR – Cancels the entire operation
-- FINALIZAR – Confirms the purchase and completes the transaction
+- FINALIZAR – It confirms the purchase and takes you to the Ticket window.
 
   
 Technologies Used
@@ -117,11 +117,21 @@ Technologies Used
 - Naomy Arely Ramirez Nepamuceno
 
   Instructions to Run the Project
+  
+To open the application, you need to have Python installed on your computer, as well as the wxPython library. Open Visual Studio Code, then in the top-left corner, open the terminal and PRESS "NEW TERMINAL." Type the following:
 
-  To have Python installed on the computer as well as the wxpython library, open the name folder to run the program, open the "terminal" as follows: CD C:\Users\PC\downloads\wxglade
-   python wx.glade.py
+cd C:\Users\PC\Downloads\wxGlade
+python wx.glade.py
+
+Next, in the top-right corner, click on "FILE", select "OPEN", find the file "naocine", and run the project from the top-right corner. The Login window will appear.
+
+
 The application works as follows:
-- Login: Enter username and password
-- Box Office: Select the movie, time, room, and ticket type
-- Concession Stand: Add products to consume
-- Ticket: A complete summary and total amount to pay is displayed
+
+Login: Enter your username and password.
+
+Box Office: Select the movie, time, room, and ticket type.
+
+Concession Stand: Add products to purchase.
+
+Ticket: A complete summary and the total amount to pay will be displayed.
