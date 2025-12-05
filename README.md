@@ -118,10 +118,7 @@ Technologies Used
 
   Instructions to Run the Project
   
-To open the application, you need to have Python installed on your computer, as well as the wxPython library. Open Visual Studio Code, then in the top-left corner, open the terminal and PRESS "NEW TERMINAL." Type the following:
-
-cd C:\Users\PC\Downloads\wxGlade
-python wx.glade.py
+To open the application, you need to have Python installed on your computer, as well as the wxPython library. Open Visual Studio Code,
 
 Next, in the top-right corner, click on "FILE", select "OPEN", find the file "naocine", and run the project from the top-right corner. The Login window will appear.
 
