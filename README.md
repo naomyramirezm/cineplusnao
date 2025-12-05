@@ -99,7 +99,7 @@ This represents the combined cost of tickets and concession items.
 Buttons
 To finish the interface, I added two buttons so the user can make the final decision:
 - CANCELAR – Cancels the entire operation
-- FINALIZAR – It confirms the purchase and takes you to the Ticket window.
+- FINALIZAR – It confirms the purchase and takes you to the TAQUILLA window.
 
   
 Technologies Used
